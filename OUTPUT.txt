@@ -1,0 +1,11 @@
+colnames(output) <- c("Read ID","SAM flag split read 1","RNA 1 identity","RNA 1 start position","RNA 1 end position","Mapping score split read 1","Cigar split read 1","Split read 1","SAM flag split read 2","RNA 2 identity","RNA 2 start position","RNA 2 end position","Mapping score split read 2","Cigar split read 2","Split read 2","Reads direction")
+
+Analysis output of the computational pipeline:
+"SAM flag split read 1" = 0 indicates that the read is mapped to the positive strand
+of the transcriptome. 
+"RNA 1 identity" refers to the identity of the RNA of the left of the chimera. "RNA 1 start position" refers to the start position
+to which the read is mapped along RNA 1. 
+"RNA 1 end position" refers to the end position to which the read is mapped along RNA 1. 
+"Mapping score split read 1" refers to the mapping score of the read that was mapped to RNA 1. 
+"Cigar split read 1" indicates the number of bases that was clipped from the read "S" and the number of bases that was mapped to the read "M". 
+"Split read 1" indicates the sequence that was mapped to RNA 1. The same nomenclature was used for the right side of the chimera, which is named as RNA 2.
